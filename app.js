@@ -3,14 +3,14 @@ const { Client, Account, Databases, ID } = Appwrite;
 const client = new Client();
 
 client
-  .setEndpoint("https://cloud.appwrite.io/v1") // Your endpoint
-  .setProject("YOUR_PROJECT_ID"); // Your project ID
+  .setEndpoint("https://fra.cloud.appwrite.io/v1") // Your endpoint
+  .setProject("690268ce0011157bec02"); // Your project ID
 
 const account = new Account(client);
 const databases = new Databases(client);
 
-const databaseId = "YOUR_DATABASE_ID";
-const collectionId = "YOUR_COLLECTION_ID";
+const databaseId = "appdata";
+const collectionId = "appwrte-data";
 
 async function register() {
   const email = document.getElementById("email").value;
