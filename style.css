@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #111;
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+#app {
+  width: 400px;
+}
+
+input {
+  display: block;
+  margin: 10px 0;
+  padding: 10px;
+  width: 100%;
+}
+
+button {
+  padding: 10px;
+  margin-right: 5px;
+  cursor: pointer;
+}
